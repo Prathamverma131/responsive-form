@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive form</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="" class="form">
+      <div class="form-heading">Registration</div>
+      <div class="form-body">
+        <div class="row">
+          <div class="col">
+            <label for="fname">First name</label>
+            <input type="text" placeholder="First name" name="fname" />
+          </div>
+          <div class="col">
+            <label for="lname">Last name</label>
+            <input type="text" placeholder="Last name" name="lname" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="email">Email address</label>
+            <input type="email" placeholder="Email" name="email" />
+          </div>
+          <div class="col">
+            <label for="company">Company</label>
+            <input type="text" placeholder="Company" name="company" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="address">Address</label>
+            <input type="text" placeholder="Address" name="address" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col1">
+            <label for="company"> Date of birth</label>
+            <div class="selectContainer">
+              <select name="" id="">
+                <option value="" selected>Month</option>
+              </select>
+              <select name="" id="">
+                <option value="" selected>Day</option>
+              </select>
+              <select name="" id="">
+                <option value="" selected>Year</option>
+              </select>
+
+              <i class="fas fa-calendar"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button>Register</button>
+    </form>
+  </body>
+</html>
