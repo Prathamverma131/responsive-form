@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-body-secondary">
+
+    <div class="container w-auto py-5 px-5">
+
+        <h1 class=" text-center">Registration</h1>
+
+        <form action="" class=" my-5 ">
+
+            <div class="names d-flex justify-content-between">
+                <div class="firstname w-50 me-5">
+                    <label for="fname" class="d-block fs-3">First Name</label>
+
+                    <input type="text" placeholder="First Name" name="fname"
+                        class="px-2 py-2 border border-2 w-100 mt-3 fs-4 rounded-4">
+                </div>
+
+                <div class="lastname w-50">
+                    <label for="lname" class="d-block fs-3 ">Last Name</label>
+
+                    <input type="text" placeholder="Last Name" name="lname"
+                        class="px-2 py-2 border border-2 w-100 mt-3 fs-4 rounded-4">
+                </div>
+
+            </div>
+
+            <div class="company d-flex justify-content-between mt-5">
+
+                <div class="email me-5 w-50">
+                    <label for="email" class="d-block fs-3 ">Email address</label>
+
+                    <input type="email" placeholder="Email" name="email"
+                        class="px-2 py-2 border border-2 w-100 mt-3 fs-4 rounded-4">
+                </div>
+
+                <div class="address w-50">
+                    <label for="address" class="d-block fs-3 ">Address</label>
+
+                    <input type="text" placeholder="Address" name="address"
+                        class="px-2 py-2 border border-2 w-100 mt-3 fs-4 rounded-4">
+                </div>
+
+
+            </div>
+
+
+            <label for="dob" class="d-block fs-3 mt-5">Date of birth</label>
+
+            <div class="select-con ">
+
+                <select name="dob" id="" class="px-2 py-2 border border-2 w-100 mt-3 fs-4 rounded-4">
+                    <option value="month">Month</option>
+                    <option value="january">January</option>
+                    <option value="feburary">Feburary</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                </select>
+
+                <select name="dob" id="" class="px-2 py-2 border border-2 w-100 mt-3 fs-4 rounded-4">
+                    <option value="day">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+
+                <select name="dob" id="" class="px-2 py-2 border border-2 w-100 mt-3 fs-4 rounded-4">
+                    <option value="year">Year</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                </select>
+
+            </div>
+
+            <button type="submit"
+                class="px-2 py-2 border border-2 fs-4 mt-5 w-100 rounded-4 bg-dark text-white">Register</button>
+        </form>
+
+    </div>
+
+
+</body>
+
+
+<script src="index.js">
+
+
+</script>
+
+</html>
